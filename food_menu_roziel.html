@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Food Menu</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: purple;
+                padding: 25px;
+                text-align: center;
+            }
+            h1{
+                color: green;
+            }
+            h1 + p{
+                background-color: yellow;
+                padding: 10px 15px;
+                border-radius: 15px;
+                display: inline-block;
+            }
+            ul{
+                padding: 0px;
+                margin-top: 20px;
+            }
+            ul > li{
+                list-style: none;
+                font-size: 16px;
+                font-weight: bold;
+                color: coral;
+                width: 250px;
+                border-radius: 10px;
+                margin: 4px auto;
+                padding: 10px 5px;
+                background: red;
+            }
+            ul li:nth-child(3) {
+                background-color: gold;
+                color: black;
+            }
+            .desc{
+                color: darkgray;
+                margin-top: 25px;
+                font-size: 35px;
+                max-width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .desc::first-letter{
+                font-size: 230%;
+                color: black;
+                font-weight: bold;
+            }
+            .links{
+                margin-top: 20px;
+            }
+            a{
+                color: aqua;
+                text-decoration: none;
+                font-size: 30px;
+                margin: 0px 20px;
+                padding: 8px 12px;
+                border: 2px solid aqua;
+                border-radius: 8px;
+            }
+            a:hover{
+                background-color: black;
+                color: aqua;
+            }
+        </style>
+    </head>
+
+    <body> 
+        <h1> A Delicious Food Menu</h1>
+        <p> Look through our amazing lists of food and decide what you will have for dinner.</p>
+
+        <ul>
+            <li> Cheese Burger</li>
+            <li> Pizza</li>
+            <li> Spagetti</li>
+            <li> Steak</li>
+            <li> Sea Food</li>
+        </ul>
+
+        <p class="desc"> Each and every one of out dishes are made with love and lots of flavour.</p>
+
+        <div class="links">
+        <a href="#">Order Now</a>
+        <a href="#"> Alternative options</a>
+        </div>
+</html>
