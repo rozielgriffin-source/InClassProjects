@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> My Pet Page </title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            padding: 60px 25px 25px 25px;
+            background-color: lightblue;
+            min-height: 1800px;
+        }
+        h1, h2{
+            color: yellow;
+        }
+        .top-bar{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: crimson;
+            color: coral;
+            padding: 10px 16px;
+        }
+        .list-item{
+            background-color: white;
+            border: 3px solid orange;
+            padding: 10px 20px;
+            margin: 5px 0px;
+        }
+        .special-note{
+            position: relative;
+            left: 35px;
+            background-color: red;
+            padding: 15px 18px;
+        }
+        .pet-card{
+            position: relative;
+            background-color: purple;
+            color: lightyellow;
+            border: 4px solid black;
+            padding: 10px 3px;
+        }
+        .badge{
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background-color: white;
+            color: purple;
+            padding: 6px 6px;
+        }
+        .section-label{
+            position: sticky;
+            top: 55px;
+            background-color: yellow;
+            color: black;
+            padding: 15px 10px;
+            margin: 10px 0px 12px;
+        }
+
+
+    </style>
+</head>
+<body>
+   <div class="top-bar"> My Pet Page - Sadie the German Shepherd</div>
+   <h1> Meet Sadie</h1>
+   <h2> Static</h2>
+   <div class="list-item"> Breed: German Shepherd</div>
+   <div class="list-item"> Age: 3 years old</div>
+   <h2> Relative</h2>
+   <p> The note is shifted right of its normal spot</p>
+   <div class="special-note"> This is the pet of the Month</div>
+   <h2> absolute</h2>
+   <p> The badge is pinned to the top of the card</p>
+   <div class="pet-card"> Sadie - German Shepherd, 3 years old
+    <div class="badge"> Adopted!</div>
+   </div>
+   <h2> Sticky</h2>
+   <p> Scroll down - the label stays at the top.</p>
+   <div class="section-label"> More pets available</div>
+   <div class="list-item"> Rocky - Pitbull</div>
+   <div class="list-item"> Moon - rottweiler</div>
+   <div class="list-item"> Coby - Greyhound</div>
+   <div class="list-item"> Porky - golden retriever</div>
+   <div class="list-item"> Tobias - Labrador</div>
+</body>
+</html>
