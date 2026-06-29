@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <h1> The JavaScript Strings</h1>
+    <p>strings are reffered to as str</p>
+
+    <script>
+        var str = "PlEaSInG"
+        document.write(str.toUpperCase());
+        document.write("<br>");
+        document.write(str.toLowerCase());
+        document.write("<br>");
+        document.write(str.startsWith("P"));
+
+        var str1 = "I wanted to go home";
+        var patt = new RegExp("home");
+        var res = patt.test (str1);
+        document.write("<br>")
+        document.write(res);
+    </script>
+    </body>
+</html>
