@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <h2>JavaScript Objects and its Properties</h2>
+
+    <p>There are two different ways to access an object property</p>
+
+    <p>You can use .property or ["property"].</p>
+    <p id="demo"></p>
+    <script>
+    // Create an object:
+    var person = {
+    firstName: "Abhishek",
+    age: 28,
+    };
+
+    // Display some data from the object: Abhishek is 28 years old
+    document.getElementById("demo").innerHTML = person.firstName + " is " + person['age'] + " years old"
+
+    var value = Math.abs(-17); 
+    document.write ("The absolute value of -17 is " + value ); 
+    var value = Math.asin(.7); 
+    document.write("<br>"); 
+    document.write ("The inverse sin of 2 would be " + value);
+    </script>
+  </body>
+</html>
